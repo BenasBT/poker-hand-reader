@@ -1,7 +1,5 @@
 package com.company.type;
 
-import com.company.entity.Card;
-
 public enum Hand implements Comparable<Hand>{
     NAN(0),
     HIGH_CARD(1),

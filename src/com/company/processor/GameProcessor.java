@@ -75,7 +75,6 @@ public class GameProcessor {
         } catch (NoPlayersException e) {
             e.printStackTrace();
         }
-
     }
 
     private void completeGame() {

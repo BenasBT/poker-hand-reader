@@ -1,7 +1,5 @@
 package com.company.type;
 
-import java.util.List;
-
 public enum CardValue {
 
     TWO(2, '2'),

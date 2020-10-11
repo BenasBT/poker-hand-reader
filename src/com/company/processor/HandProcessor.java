@@ -15,7 +15,6 @@ public class HandProcessor {
 
     private List<Card> handCards;
 
-
     public HandProcessor() {
         handCards = new ArrayList<>();
     }
@@ -24,7 +23,7 @@ public class HandProcessor {
         List<Card> cards = new ArrayList<>(player.getCards());
         player.setHand(processHand(cards, player));
         cards.removeAll(handCards);
-        if(player.getHand() != Hand.HIGH_CARD) {
+        if (player.getHand() != Hand.HIGH_CARD) {
             player.setHighCard(cards.size() > 0 ? processRemainingHighCard(cards) : null);
         }
     }
